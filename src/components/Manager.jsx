@@ -78,8 +78,8 @@ const Manager = () => {
   };
 
   const editPassword = (id) => {
-    setform(passwordArray.find((i) => i.id === id));
-    setpasswordArray(passwordArray.filter((item) => item.id !== id));
+      setform(passwordArray.find((i) => i.id === id));
+      setpasswordArray(passwordArray.filter((item) => item.id !== id));
   };
 
   const handleChange = (e) => {
