@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root{
+    .mycontainer{
+        @apply max-w-4xl px-10 mx-auto
+    }
+}
