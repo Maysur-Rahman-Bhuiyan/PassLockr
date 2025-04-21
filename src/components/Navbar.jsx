@@ -9,12 +9,14 @@ const Navbar = () => {
     <nav className="bg-slate-800 text-white">
       <div className="mycontainer px-4 py-3 flex justify-between items-center">
         {/* Logo */}
-        <div className="logo font-bold text-2xl">
-          <span className="text-green-500">&lt;</span>
-          <span>Pass</span>
-          <span className="text-green-500">Op/</span>
-          <span className="text-green-500">&gt;</span>
-        </div>
+        <a href="/">
+          <div className="logo font-bold text-2xl">
+            <span className="text-green-500">&lt;</span>
+            <span>Pass</span>
+            <span className="text-green-500">Op/</span>
+            <span className="text-green-500">&gt;</span>
+          </div>
+        </a>
 
         {/* Hamburger Icon (Small screens) */}
         <div
@@ -56,7 +58,7 @@ const GitHubButtons = () => (
         <span className="font-bold">GitHub</span>
       </button>
     </a>
-    <a href="/docs">
+    <a target="_blank" href="/docs">
       <button className="bg-green-700 flex items-center py-1.5 px-4 rounded-full cursor-pointer ring-white ring-1">
         <img className="invert w-5 h-5 mr-2" src="/icons/docs.svg" alt="GitHub" />
         <span className="font-bold">Docs</span>
