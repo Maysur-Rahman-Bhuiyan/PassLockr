@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { Github } from "lucide-react";
 
 const Docs = () => {
+  document.title = "<PassOp/> | Docs"
+
   const fadeUp = {
     hidden: { opacity: 0, y: 30 },
     visible: (i = 1) => ({
