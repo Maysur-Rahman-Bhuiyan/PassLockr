@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="logo font-bold text-2xl">
             <span className="text-green-500">&lt;</span>
             <span>Pass</span>
-            <span className="text-green-500">Op/</span>
+            <span className="text-green-500">Lockr/</span>
             <span className="text-green-500">&gt;</span>
           </div>
         </a>

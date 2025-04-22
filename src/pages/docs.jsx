@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Github } from "lucide-react";
 
 const Docs = () => {
-  document.title = "<PassOp/> | Docs"
+  document.title = "<PassLockr/> | Docs"
 
   const fadeUp = {
     hidden: { opacity: 0, y: 30 },
@@ -31,14 +31,14 @@ const Docs = () => {
         variants={fadeUp}
         custom={0}
       >
-        📘 PassOp Docs
+        📘 PassLockr Docs
       </motion.h1>
       <motion.p
         className="text-center text-gray-600 text-lg mb-12"
         variants={fadeUp}
         custom={0.5}
       >
-        Learn how to use PassOp and understand how your data stays safe.
+        Learn how to use PassLockr and understand how your data stays safe.
       </motion.p>
 
       {/* Cards Grid */}
@@ -69,7 +69,7 @@ const Docs = () => {
           custom={1.5}
         >
           <h2 className="text-2xl font-semibold text-green-600 mb-4">
-            🔐 How Secure is PassOp?
+            🔐 How Secure is PassLockr?
           </h2>
           <ul className="list-disc list-inside space-y-3 text-gray-700 text-base leading-relaxed">
             <li>All passwords are stored locally using <strong>localStorage</strong>.</li>
@@ -113,7 +113,7 @@ const Docs = () => {
             <li><strong>A:</strong> No, passwords are stored locally and are not recoverable.</li>
             <li><strong>Q:</strong> How do I delete passwords?</li>
             <li><strong>A:</strong> Simply click the delete icon next to the password entry.</li>
-            <li><strong>Q:</strong> Does PassOp store my data online?</li>
+            <li><strong>Q:</strong> Does PassLockr store my data online?</li>
             <li><strong>A:</strong> No, all data is stored only in your browser's localStorage.</li>
           </ul>
         </motion.div>
@@ -128,7 +128,7 @@ const Docs = () => {
            <span className="text-black"><Github/></span> Contribute in GitHub
           </h2>
           <ul className="list-disc list-inside space-y-3 text-gray-700 text-base leading-relaxed">
-            <li>Clone or download the PassOp repository from GitHub. Link -&gt; <a target="_blank" className="text-blue-700 underline" href="https://github.com/Maysur-Rahman-Bhuiyan/PassOp">https://github.com/Maysur-Rahman-Bhuiyan/PassOp</a></li>
+            <li>Clone or download the PassLockr repository from GitHub. Link -&gt; <a target="_blank" className="text-blue-700 underline" href="https://github.com/Maysur-Rahman-Bhuiyan/PassLockr">https://github.com/Maysur-Rahman-Bhuiyan/PassLockr</a></li>
             <li>Install dependencies using <code>npm install</code>.</li>
             <li>Run the app using <code>npm run dev</code> to start the development server.</li>
             <li>Contribute by sending pull requests in Github</li>
@@ -145,7 +145,7 @@ const Docs = () => {
             🚀 Getting Started
           </h2>
           <ul className="list-disc list-inside space-y-3 text-gray-700 text-base leading-relaxed">
-            <li>Clone or download the PassOp repository from GitHub.</li>
+            <li>Clone or download the PassLockr repository from GitHub.</li>
             <li>Install dependencies using <code>npm install</code>.</li>
             <li>Run the app using <code>npm start</code> and start saving your passwords.</li>
             <li>Enjoy a seamless password management experience right in your browser.</li>
@@ -159,7 +159,7 @@ const Docs = () => {
         variants={fadeUp}
         custom={4}
       >
-        🚀 Crafted with love by the <span className="text-green-600 font-semibold">PassOp</span> Team
+        🚀 Crafted with love by the <span className="text-green-600 font-semibold">PassLockr</span> Team
       </motion.div>
     </motion.div>
   );
