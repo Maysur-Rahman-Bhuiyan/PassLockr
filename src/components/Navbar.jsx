@@ -58,12 +58,12 @@ const GitHubButtons = () => (
         <span className="font-bold">GitHub</span>
       </button>
     </a>
-    <a target="_blank" href="/docs">
+    {/* <a target="_blank" href="/docs">
       <button className="bg-green-700 flex items-center py-1.5 px-4 rounded-full cursor-pointer ring-white ring-1">
         <img className="invert w-5 h-5 mr-2" src="/icons/docs.svg" alt="GitHub" />
         <span className="font-bold">Docs</span>
       </button>
-    </a>
+    </a> */}
   </>
 );
 
